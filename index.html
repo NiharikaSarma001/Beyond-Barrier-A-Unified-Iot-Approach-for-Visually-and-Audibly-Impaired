@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Morse Code Translator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/520b6c263e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <p id="morseText"></p>
+    <img src="microphone-solid.svg" class="microphone-icon" alt="Microphone"> <!-- Mic icon -->
+    <img src="volume-high-solid.svg" class="speaker-icon" alt="Speaker"> <!-- Speaker icon -->
+    <button id="myButton"></button>
+    <button id="backspaceButton">Backspace</button>
+    <button id="resetButton">Reset</button>
+    <br>
+    <input type="text" id="morseInput" placeholder="Enter Morse Code">
+    <button id="translateButton">Translate</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
