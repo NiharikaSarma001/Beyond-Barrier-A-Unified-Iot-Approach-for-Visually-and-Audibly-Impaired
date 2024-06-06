@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e8dc56; /* Black background */
+}
+
+  
+.container {
+    text-align: center;
+}
+  
+.container i {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#translateButton {
+    background-color: #8BC34A; /* Light green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px; /* Oval shape */
+}
+
+#translateButton:hover {
+    background-color: #689F38; /* Darker green on hover */
+}
+
+
+#myButton {
+    background-color: red;
+    width: 150px; /* Increase the width */
+    height: 150px; /* Increase the height */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5em; /* Increase font size */
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Use a nice font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myButton::after {
+    content: "TAP!"; /* Add the "TAP!" text */
+}
+
+
+
+#myButton:hover {
+    background-color: #d32f2f;
+}
+  
+#morseText {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#backspaceButton,
+#resetButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#backspaceButton:hover,
+#resetButton:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.microphone-icon,
+.speaker-icon {
+    width: 24px; /* Adjust the width */
+    height: 24px; /* Adjust the height */
+}
+
+#morseInput {
+    width: 200px; /* Adjust the width as needed */
+    padding: 10px; /* Add padding for better appearance */
+    border-radius: 30px; /* Match the border radius of the button */
+    border: none;
+    margin-right: 10px; /* Add some spacing between the text box and the button */
+}
