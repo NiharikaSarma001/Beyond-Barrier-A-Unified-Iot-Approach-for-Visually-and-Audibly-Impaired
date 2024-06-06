@@ -18,3 +18,7 @@ This project aims to develop a smart glass prototype equipped with various senso
 * Setup: Upload the Arduino code to the microcontroller.
 * Web Interface: Open the provided HTML file in a web browser to access the Morse code translation interface.
 * Usage: Follow the instructions provided in the interface for Morse code input and translation.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
